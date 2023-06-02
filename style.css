@@ -1,0 +1,36 @@
+.head{
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    height: 15vh;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.pH-level{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5.5vh;
+    width: 100%;
+   color: white;
+}
+.pH-level[data-pH='0'] { background: red; }
+    .pH-level[data-pH='1'] { background: #ff4d4d; }
+    .pH-level[data-pH='2'] { background: #ff8080; }
+    .pH-level[data-pH='3'] { background: #ffb3b3; }
+    .pH-level[data-pH='4'] { background: #ffd6d6; }
+    .pH-level[data-pH='5'] { background: white;color: black; }
+    .pH-level[data-pH='6'] { background: #d6f5ff; }
+    .pH-level[data-pH='7'] { background: #a3e2ff; }
+    .pH-level[data-pH='8'] { background: #80ccff; }
+    .pH-level[data-pH='9'] { background: #4da9ff; }
+    .pH-level[data-pH='10'] { background: #1a85ff; }
+    .pH-level[data-pH='11'] { background: #0061cc; }
+    .pH-level[data-pH='12'] { background: #004799; }
+    .pH-level[data-pH='13'] { background: #003066; }
+    .pH-level[data-pH='14'] { background: #001933; }
